@@ -16,5 +16,8 @@ namespace Bro_Hot_Food_And_Beverage
             MySqlConnection connection = new MySqlConnection(ConnectionString);
             return connection;
         }
+
+        int kalhara;
+
     }
 }
